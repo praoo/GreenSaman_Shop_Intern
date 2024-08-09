@@ -1,0 +1,421 @@
+
+/* ________________________________________
+ Our Product Popup CSS code here
+  -------------------- */
+
+  .product-popup-data-comp{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-popup-data-comp:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #070f0b;
+    opacity: 0.5;
+  }
+
+  .prod-popup-data-main-bx{
+    position: relative;
+    width: 100rem;
+    background-color: #fff;
+    height: 55rem;
+    overflow-y: auto;
+    padding: 0 0;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    border-radius: 1px;
+  }
+
+
+
+  .prod-popup-data-main-bx::-webkit-scrollbar{
+    width: .345rem;
+  }
+
+  .prod-left-img-bx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 1px ;
+    overflow: hidden;
+
+  }
+
+  .prod-popup-img-bx{
+    position: relative;
+    width: 100%;
+    height: 55rem;
+    overflow: hidden;
+
+  }
+
+  .prod-left-img-bx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1px ;
+  }
+
+  .prod-left-img-bx:hover .prod-img-2{
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  .right-prod-data-main-bx{
+    position: relative;
+    width: 100%;
+    padding: 4.5rem 2.5rem;
+  }
+
+  .right-prod-data-main-bx h3{
+    font-size: 2.87rem;
+  }
+
+  .prod-rating-brand-flex-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: .1rem solid #ddd;
+  }
+
+  .prod-rating-brand-flex-bx p{
+    font-size: 1.5rem;
+    font-weight: 500    ;
+    letter-spacing: .45px;
+    margin-bottom: 0;
+  }
+
+  .prod-rating-brand-flex-bx p span{
+    font-size: 1.5rem;
+    font-weight: 400    ;
+    font-family: 'League Spartan', sans-serif;
+    color: #088178;
+
+  }
+
+  .star-bx{
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+    flex-direction: column;
+    padding-block: 1rem;
+  }
+
+ 
+
+  .prod-rating-brand-flex-bx h6{
+    margin-bottom: 0 !important;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .55px;
+  }
+
+  .review-bx{
+        font-size: 1.3rem !important;
+        letter-spacing: .35px !important;
+  }
+
+  .prod-price-flex-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: .55rem 0;
+    border-bottom: .1rem solid #ddd;
+
+  }
+
+  .prod-price-flex-bx h6{
+    font-size: 2.2rem;
+    color: #088178;
+    letter-spacing: .45px;
+  }
+
+  .prod-price-flex-bx h6:last-child{
+    text-decoration: line-through;
+    color: #a39e9e;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .des-text{
+    font-size: 1.55rem;
+    padding-block-start: 1.5rem;
+    font-size: 1.65rem;
+    line-height: 1.7;
+    letter-spacing: .5px;
+    color: #626262;
+    font-weight: 400;
+  }
+
+  .product-shipment-relt-det-flex-bx{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  .product-shipment-relt-det-flex-bx p{
+    margin-bottom: 1rem;
+    font-size: 1.45rem;
+    font-weight: 400;
+    letter-spacing: .45px;
+    color: #686666;
+  }
+
+  .p-icon{
+    color: #088178;
+    margin-right: .55rem;
+  }
+
+  .colors-selc-main-bx{
+    position: relative;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .colors-selc-main-bx h6{
+    font-size: 1.87rem;
+    font-weight: 500;
+    color: #4f5d77;
+  }
+
+  .color-select-btn-flex{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .color-sel-btn{
+    position: relative;
+    width: 2.87rem;
+    height: 2.87rem;
+    background-color: #ff596d;
+    border-radius: 50%;
+    border: none;
+    border: .1rem solid #ddd;
+    transition: 400ms ease;
+    
+  }
+
+  .color-sel-btn.selted{
+    transform: scale(0.85) ;
+    border: .1rem solid #cacccb;
+
+  }
+
+  .yellow{
+    background-color: #ffdb33;
+
+  }
+
+  .white{
+    background-color: #fff;
+
+  }
+
+  .orange{
+    background-color: #ffbb51;
+
+  }
+
+  .blue{
+    background-color: #80e6ff;
+
+  }
+
+  .green{
+    background-color: #38cf46;
+
+  }
+
+  .pink{
+    background-color: #ff8ff8;
+
+  }
+
+  .size-sel-bx{
+    margin-top: 1.5rem;
+  }
+
+  .size-sel-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+  }
+
+  .size-sel-btn{
+    position: relative;
+    width: max-content;
+    padding: .55rem 1.87rem;
+    font-size: 1.45rem;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    background-color: transparent;
+    border: none;
+    border: .1rem solid #ddd;
+    border-radius: .45rem;
+    transition: 400ms ease;
+
+  }
+  .size-sel-btn:hover , .size-sel-btn.sizeactive{
+    color: #fff;
+    background-color: #088178;
+  }
+
+  .quat-main-bx{
+    position: relative;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-color: #fff;
+    border: .1rem solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .qunt-btn{
+    position: relative;
+    width: max-content;
+    padding-inline: .87rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.45rem;
+    color: #4f5d77;
+  }
+
+  .quat-dec-btn{
+    border-right: .1rem solid #ddd;
+  }
+
+  .quat-inc-btn{
+    border-left: .1rem solid #ddd;
+  }
+
+  .cart-btn-wishlist-btn-flex-bx{
+    position: relative;
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.76rem;
+    padding-bottom: 4.5rem;
+    border-bottom: .1rem solid #ddd;
+  }
+
+  .cart-btn{
+    position: relative;
+    width: max-content;
+    height: 4.5rem;
+    padding: 0 2.87rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    /* font-family: 'League Spartan', sans-serif; */
+    border: .1rem solid #088178;
+    border-radius: .1rem;
+    letter-spacing: .45px;
+    transition: 400ms ease;
+
+  }
+
+  .cart-btn:hover{
+    background-color: #fff;
+    color: #088178;
+  }
+  
+
+  .wishlist-btn{
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    background-color: #fff;
+    border: none;
+    border: .1rem solid #ddd;
+    color: #088178;
+    transition: 400ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wishlist-btn:hover{
+    background-color: #088178;
+    color: #fff;
+  }
+
+  .prod-spec-det-bx{
+    position: relative;
+    padding-top: 2.87rem;
+
+  }
+
+  .prod-spec-det-bx p{
+    margin-bottom: .55rem;
+    font-size: 1.45rem;
+    font-weight: 400;
+    color: #4f5d77;
+    letter-spacing: .55px;
+  }
+
+  .prod-spec-det-bx p span{
+    font-family: 'League Spartan', sans-serif;
+    color: #088178;
+
+  }
+
+  .close-popup-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    height: 4rem;
+    background-color: #ff596d;
+    color: #fff;
+    font-size: 2.45rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms ease;
+  }
+
+  .close-popup-btn:hover {
+    background-color: #f92840;
+
+  }

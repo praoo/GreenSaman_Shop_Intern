@@ -1,0 +1,435 @@
+
+/* _________________________________
+ Our blog css code here 
+ --------------------- */
+
+ .blog-comp{
+    position: relative;
+    width: 100%;
+    padding-block: 3rem;
+    margin-block: 2rem;
+    padding-inline: 1.87rem;
+ }
+
+ .left-blog-grid-det-bx{
+    position: relative;
+    width: 100%;
+ }
+
+ .blog-main-det-bx{
+    position: relative;
+    width: 100%;
+ }
+
+ .comn-heading{
+    padding-inline: 0;
+    margin-bottom: 1rem;
+ }
+
+ .blog-box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+ }
+
+ .blog-img{
+    position: relative;
+    width: 24rem;
+    height: 15rem;
+ }
+
+ .blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .blog-det-bx{
+    position: relative;
+ }
+
+ .blog-det-bx p{
+    margin-bottom: 0;
+    color: #088178;
+    font-size: 1.7rem;
+    letter-spacing: .2px;
+    font-weight: 400 ;
+ }
+
+ .blog-det-bx h5{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #303030;
+    letter-spacing: .55px;
+    max-width: 40rem;
+ }
+
+ .blog-date-view-flex-bx{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .date-view-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+ }
+
+ .date-view-bx span{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #556563;
+ }
+
+ .blog-date-view-flex-bx a{
+    font-size: 1.35rem !important;
+    font-weight: 500 !important;
+    letter-spacing: .4px !important;
+    color: #088178 !important;
+ }
+
+ .right-blog-grid-main-bx{
+    position: relative;
+    width: 100%;
+    column-gap: 2rem !important;
+    row-gap: 2rem !important;
+ }
+
+ .blog-box-two{
+    position: relative;
+    width: 100%;
+    height: 95%;
+ }
+
+ .blog-two-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+ }
+
+ .blog-two-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .blog-box-two{
+    opacity: 1;
+    z-index: 10;
+ }
+
+ .right-two-mini-blog-main-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+
+ .blog-mini-bx{
+    height: 45%;
+ }
+
+ .blog-mini-info{
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);
+ }
+
+ .blog-mini-info h6{
+    font-size: 2.1rem;
+ }
+
+ .blog-mini-info2{
+    transform: translateX(10%) translateY(-50%);
+
+ }
+
+ .blog-mini-info2 span{
+    transition: 500ms ease;
+ }
+
+ .blog-mini-bx:hover .blog-mini-info2 h6{
+    transform: translateX(0);
+ }
+
+ .blog-mini-bx:hover .blog-mini-info2 span , 
+    .blog-mini-bx:hover .blog-mini-info2 button{
+    transform: translateX(-10px);
+ }
+
+ .shop-today-deal-main{
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+    height: 20rem;
+    background: url('../images/banner-11.jpg')no-repeat center center/cover;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 1.87rem;
+ }
+
+ .shop-today-info{
+    position: relative;
+    left: 5rem;
+ }
+
+ .shop-today-info p{
+    font-size: 1.87rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: #616161;
+    letter-spacing: .55px;
+ }
+
+ .shop-today-info h6{
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: .55px;
+ }
+
+ 
+ .shop-today-info h6 span{
+    font-size: 3.5rem;
+    color: #088178;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+ }
+
+ /* _______________________________
+  Our top deal css code
+  ----------------- */
+
+  .top-deal-comp{
+    position: relative;
+    width: 100%;
+    padding-top: 1rem;
+    padding-inline: 1.87rem;
+    margin-bottom: 2rem;
+  }
+
+  .top-deal-grid{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    overflow: hidden;
+  }
+
+  .left-top-deal-banner-img-bx{
+    position: relative;
+    width: 100%;
+    height: 98%;
+    
+  }
+
+  .top-deal-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .top-deal-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .top-deal-info{
+    top: 50%;
+  }
+
+  .right-top-deal-show-prod-grid{
+    position: relative;
+    width: 100%;
+    column-gap: 2rem;
+    row-gap: 2rem;
+
+  }
+
+  .prod-listing-main-bx{
+    position: relative;
+    width: 100%;
+  }
+
+  .prod-listing-heading{
+    position: relative;
+    width: 100%;
+    border-bottom: .1rem solid #cdd2d1;
+
+  }
+
+  .prod-listing-heading h6{
+    position: relative;
+    width: max-content;
+    margin-bottom: 0;
+    padding-bottom: 1.3rem;
+    font-size: 2rem;
+  }
+
+  .prod-listing-heading h6:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    height: .2rem;
+    background-color: #088178;
+  }
+
+  .prod-listing-list{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .prod-list-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2.93rem;
+
+  }
+
+  .prod-list-img{
+    position: relative;
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  .prod-list-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .prod-list-info h6{
+    position: relative;
+    font-size: 1.67rem;
+    font-weight: 400;
+    color: #303030;
+    max-width: 18rem;
+  }
+
+  .prod-price-flex{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .prod-price-flex span{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.67rem;
+    color: #088178;
+  }
+
+  .prod-price-flex span:last-child{
+    text-decoration: line-through;
+    color: #a4a1a1;
+  }
+
+  /* __________________________________
+   Our news letter css code
+   ------------------ */
+
+   .newsletter-comp{
+    position: relative;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 4rem 1.87rem;
+    background-color: #aeccc5;
+   }
+
+   .newslet-main-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+   }
+
+   .left-newslet-text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   }
+
+   .left-newslet-text img{
+    width: 4rem;
+   }
+
+   .left-newslet-text h6{
+    font-size: 2.3rem;
+    letter-spacing: .35px;
+   }
+
+   .right-newslet-bx{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+   }
+
+   .right-newslet-bx p{
+    font-size: 1.87rem;
+    font-weight: 500;
+    margin-bottom: 0;
+   }
+
+   .email-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 4.76rem;
+   }
+
+   .email-inpt-bx{
+    position: relative;
+    width: 35rem;
+    height: 100%;
+   }
+
+   .email-inpt-bx input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #303030;
+    padding-inline: 2rem;
+    font-weight: 400;
+    letter-spacing: .4px;
+   }
+
+   .email-btn{
+    position: relative;
+    width: max-content;
+    padding-inline: 4rem;
+    height: 100%;
+    font-size: 1.45rem;
+    background-color: #252525;
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 500;
+    border: none;
+    border-top-right-radius: .55rem;
+    border-bottom-right-radius: .55rem;
+   }
+
+   /* aeccc5 */

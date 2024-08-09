@@ -1,0 +1,226 @@
+
+/* _______________________________________
+ Our Google font import Santan font 
+ -------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800&display=swap');
+
+ /* Main Font ---------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+ /* __________________________________
+  Our Reusable CSS codes
+  ------------------------- */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+  }
+
+  html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    margin-bottom: 1.5rem;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  h1{
+    font-size: 6.5rem;
+    font-weight: 700;
+  }
+
+  h2{
+    font-size: 5.5rem;
+    font-weight: 600;
+  }
+
+  h3{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  h4{
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  h5{
+    font-size: 2.78rem;
+    font-weight: 500;
+  }
+
+  h6{
+    font-size: 1.87rem;
+    font-weight: 400;
+  }
+
+  a{
+    text-decoration: none !important;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    color: #000 !important;
+  }
+  
+  li{
+    list-style: none;
+  }
+
+  p{
+    font-size: 1.55rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-family: 'League Spartan', sans-serif;
+
+  }
+
+  span{
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .common-container{
+    max-width: 130rem;
+    margin: 0 auto;
+  }
+  
+  .common-container2{
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .common-container3{
+    max-width: 110rem;
+    margin: 0 auto;
+  }
+
+  .grid{
+    display: grid;
+  }
+
+  .grid-gap{
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .grid-two-col{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+  .grid-three-col{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+  .grid-four-col{
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+  .grid-five-col{
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+  .grid-six-col{
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+
+  ::selection{
+    background-color: #088178;
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar{
+    width: .645rem;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: #088178;
+
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  
+  .comn-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blog-heading{
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .nav-w-c-u-btns , .nav-logo{
+    display: none;
+  }
+
+  .header-comp2.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    animation: stickyNav .78s ease forwards;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  @keyframes stickyNav {
+
+    0%{
+      transform: translateY(-50%);
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    100%{
+      transform: translateY(0%);
+      opacity: 1;
+      visibility: visible;
+    }
+    
+  }
+
+  .header-comp2.sticky .nav-w-c-u-btns , 
+  .header-comp2.sticky .nav-logo{
+    display: flex;
+  }
+
+  .header-comp2.sticky .categ-filt-btn , 
+  .header-comp2.sticky .login-btn{
+    display: none;
+  }
+
+
+ 

@@ -1,0 +1,77 @@
+
+/* ___________________________________
+ Our TopHeader css code
+ --------------------- */
+
+ .top-header-comp{
+    position: relative;
+    width: 100%;
+    padding: 1rem 1.87rem;
+    background-color: #088178;
+ }
+
+ .top-header-flex-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .left-tp-hedr-links-flex{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3.5rem;
+ }
+
+ .left-tp-hedr-links-flex li{
+    position: relative;
+    width: max-content;
+ }
+
+ .left-tp-hedr-links-flex li a{
+    display: inline-block !important;
+    width: max-content !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    letter-spacing: .5px !important;
+    
+ }
+
+ .right-apps-link-flex-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+ }
+
+ .app-img-bx{
+    position: relative;
+    width: 2.5rem;
+    cursor: pointer;
+
+ }
+
+ .app-img-bx:nth-child(2){
+    width: 2rem;
+
+ }
+
+ .app-img-bx img {
+    width: 100%;
+    height: auto;
+ }
+
+ .right-apps-link-flex-bx span{
+    display: inline-block;
+    width: max-content;
+    font-size: 1.3rem;
+    color: #fff;
+    letter-spacing: .55px;
+    font-weight: 500;
+ }
+
+ /* 088178 */

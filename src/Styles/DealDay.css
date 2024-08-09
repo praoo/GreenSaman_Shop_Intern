@@ -1,0 +1,173 @@
+
+/* _____________________________
+ Our Deal Day comp css code
+ ------------------ */
+ .dea-day-comp{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem 1.87rem;
+ }
+
+ .deal-day-grid{
+    position: relative;
+    width: 100%;
+ }
+
+ .deal-day-bx{
+    position: relative;
+    width: 100%;
+    background: url('../images/menu-banner-1.jpg')no-repeat center center/cover;
+    z-index: 1;
+    padding-block: 4.5rem;
+    padding-inline: 4.5rem;
+ }
+
+ .deal-day-info-bx{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+ }
+
+ .deal-day-info-bx h3{
+    font-size: 3.3rem;
+    color: #088178;
+    letter-spacing: .45px;
+    margin-bottom: 0 ;
+    line-height: 1;
+ }
+
+ .deal-day-info-bx p{
+    font-size: 1.87rem;
+    font-weight: 300;
+    letter-spacing: .4px;
+    color: #282727;
+
+ }
+
+ .deal-day-info-bx h5{
+    font-size: 2.2rem;
+    color: #504e4e;
+    font-weight: 300;
+    max-width: 25rem;
+    letter-spacing: .55px;
+    margin-bottom: 1.5rem;
+ }
+
+ .deal-day-price-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1.3rem;
+ }
+
+ .deal-day-price-flex span{
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    color: #f73232;
+    letter-spacing: .45px;
+ }
+
+
+ .deal-day-price-flex span:last-child{
+    text-decoration: line-through ;
+    color: #c2c2c2;
+    font-weight: 300;
+ }
+
+ .count-down-bx-main{
+    position: relative;
+    width: 100%;
+ }
+
+ .count-down-bx-main p{
+    font-size: 1.76rem;
+    color: #465b52;
+    font-weight: 400;
+    margin-bottom: 0;
+ }
+
+ .count-down-num-flex-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.3rem;
+ }
+
+ .count-down-bx{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .count-down-bx{
+    position: relative;
+    width: 5.87rem;
+ }
+
+ .cnt-num-bx{
+    position: relative;
+    width: 5.87rem;
+    height: 4.87rem;
+    background-color: #088178;
+    display: grid;
+    place-items: center;
+    border-radius: .55rem;
+
+ }
+
+ .cnt-num-bx span{
+    font-size: 1.87rem;
+    color: #fff;
+    font-weight: 500;
+ }
+
+ .count-down-bx p{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    letter-spacing: .55px;
+    color: #9c9999;
+ }
+
+ .shop-bg-btn{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: .2rem solid #088178;
+    color: #088178;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    border-radius: .4rem;
+    font-size: 1.35rem;
+    transition: 400ms ease;
+ }
+
+ .shop-bg-btn i{
+    transition: 400ms ease;
+
+ }
+
+ .shop-bg-btn:hover{
+    transform: translateY(-6px);
+ }
+
+ .shop-bg-btn:hover i{
+    transform: translateX(6px);
+    padding-inline: .2rem;
+ }
+
+ .deal-day-bx2{
+    background: url('../images/menu-banner-2.jpg')no-repeat center  center/cover;
+ }

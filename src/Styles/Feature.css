@@ -1,0 +1,88 @@
+
+/* _______________________________
+ Our Feature css code
+ ----------------------- */
+
+ .feature-comp{
+    position: relative;
+    width: 100%;
+    padding: 2rem 1.87rem ;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+ }
+
+ .feat-grid{
+    position: relative;
+    width: 100%;
+ }
+
+ .feat-bx{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: .1rem solid #cce7d0;
+    border-radius: .7rem;
+    padding: 2rem 2rem;
+    box-shadow: 20px 20px 54px rgba(0,0,0,.03);
+    transition: 400ms ease;
+ }
+
+ 
+ 
+ .feat-bx:hover{
+    transform: translateY(-8px);
+ }
+
+ .feat-img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.5rem;
+ }
+
+ .feat-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+
+ .feat-bx h6{
+    text-align: center;
+    width: max-content;
+    padding: .65rem 1rem .45rem 1rem;
+    background-color: #fddde4;
+    font-size: 1.65rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #018178;
+    margin: 0 auto 0 auto;
+    border-radius: .5rem;
+ }
+
+ .feat-bx2 h6{
+    background-color: #cdebbc;
+
+ }
+
+ .feat-bx3 h6{
+    background-color: #d1e8f2;
+
+ }
+
+ .feat-bx4 h6{
+    background-color: #cdd4f8;
+
+ }
+
+ .feat-bx5 h6{
+    background-color: #f6dbf6;
+
+ }
+
+ .feat-bx6 h6{
+    background-color: #fff2e5;
+
+ }
+ 
+
+ /* fddde4 , cdebbc d1e8f2 cdd4f8 f6dbf6 fff2e5 088178 
+ shadow - 20px 20px 54px rgba(0,0,0,.03) */

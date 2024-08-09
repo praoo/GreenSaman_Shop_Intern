@@ -1,0 +1,202 @@
+
+/* _________________________________
+ Our categ css code
+ ----------------------- */
+
+ .categ-comp{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 3rem 1.87rem;
+
+ }
+
+ .categ-flex-bx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.87rem;
+
+ }
+
+ .categ-flex-bx h6{
+    margin-bottom: 0;
+    font-size: 2.87rem;
+    color: #242424;
+    letter-spacing: .55px;
+    font-weight: 500;
+
+ }
+
+ .categ-flex-bx h6 span{
+    font-size: 2.87rem;
+    color: #088178;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    
+
+ }
+
+ .slider-btns-flex-bx{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-inline: 1.87rem;
+    
+
+ }
+
+ .slide-btn{
+    position: relative;
+    width: 3.87rem;
+    height: 3.87rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf3f3;
+    color: #088178;
+    font-size: 1.5rem;
+    border: none;
+    z-index: 1;
+    transition: 500ms ease;
+
+ }
+
+ .slide-btn.hiddenBtn{
+    z-index: -2;
+    pointer-events: none;
+ }
+
+ .slide-btn:hover{
+    background-color: #088178;
+    color: #fff;
+ }
+
+ .categ-slider-main-bx{
+    margin-top: 4rem;
+    display: grid;
+    gap: 2.4rem;
+ }
+
+ .categ-slider{
+    --slider-items : 6;
+
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+
+
+ }
+
+ .categ-slider-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 400ms ease;
+
+ }
+
+ .slider-items{
+    min-width: calc(100% / var(--slider-items));
+    width: calc(100% / var(--slider-items));
+    padding-inline: 1.87rem;
+
+ }
+
+ .categ-box{
+    position: relative;
+    width: 100%;
+    padding: 1rem 1rem;
+    border: .1rem solid #bcf2ee;
+    border-radius: 1.7rem;
+ }
+
+ .categ-img{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 3rem;
+ }
+
+ .categ-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .87rem;
+ }
+
+ .categ-box h6{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #575757;
+    letter-spacing: .55px;
+
+ }
+
+ /* ____________________________
+  Our monthly sell css code
+  ---------------- */
+
+  .month-sell-box{
+   position: relative;
+   width: 100%;
+  }
+
+  .month-sell-img{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border-radius: 1.5rem;
+
+  }
+
+  .month-sell-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 1.5rem;
+  }
+
+  .monthly-sell-main-grid-bx{
+   margin-top: 4rem;
+   display: grid;
+   width: 100%;
+   grid-template-columns: 1fr 3fr;
+   column-gap: 2rem;
+   row-gap: 2rem;
+  }
+
+  .categ-flex-bx3 h6{
+   margin-bottom: 0 !important;
+  }
+
+  .mont-sell-info{
+   left: 35%;
+   transform: translateY(-50%) translateX(-50%);
+  }
+
+  .mont-sell-info span{
+   color: #a3a2a2;
+  }
+
+  .mont-sell-info h6{
+   color: #fff;
+  }
+
+  .shop-btn-white{
+   color: #fff;
+  }
+
+  .right-monthly-sell-product-slider-main{
+   margin-top: 0 !important;
+  }
+
+  .month-slider-cont{
+   align-items: flex-start;
+  }

@@ -1,0 +1,585 @@
+
+/* ________________________________
+ Our Single Product css code
+ --------------------- */
+
+ .single-prod-comp{
+    position: relative;
+    width: 100%;
+    padding: 3rem 1.87rem;
+    margin-top: 4rem;
+
+ }
+
+ .single-prod-grid{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+ }
+
+ .left-sing-prod-img-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+
+ .big-img-bx {
+    position: relative;
+    width: 100%;
+    height: 60rem;
+ }
+
+ .sml-img-bx{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    cursor: pointer;
+    transition: 500ms ease;
+    border: .1rem solid #088178;
+    border-color: transparent;
+ }
+
+ .sml-img-bx.smimgactive{
+    transform: scale(0.8);
+    opacity: 0.77;
+    border-color: #088178;
+ }
+
+ .big-img-bx img , .sml-img-bx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .sm-img-grid{
+    position: relative;
+    width: 100%;
+    column-gap: 2rem !important;
+    row-gap: 2rem !important;
+ }
+
+ .star-rat-flex-bx{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+ }
+
+ .icon {
+    font-size: 1.5rem !important;
+ }
+
+ .star-rat-flex-bx p{
+    margin-bottom: 0;
+    transform: translateY(2px);
+    font-size: 1.5rem !important;
+ }
+
+ .sing-prod-brand-name p:nth-child(1){
+    font-size: 1.65rem !important;
+    transform: translateY(2px);
+ }
+
+ .prod-price-flex-bx-single-prodct{
+        padding: 1.45rem 0 1rem 0;
+        gap: 2.56rem;
+ }
+
+ .prod-price-flex-bx-single-prodct h6{
+    margin-bottom: 0 !important;
+    font-size: 3rem;
+ }
+
+ .prod-price-flex-bx-single-prodct h6:last-child{
+    font-size: 2.3rem;
+ }
+
+ .right-sing-prod-det-main-bx{
+    padding: 0 2rem;
+ }
+
+ /* ___________________________
+  Our Description Reviews CSS code 
+  ----------------- */
+
+  .description-review-main-box{
+    position: relative;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 2rem 0;
+  }
+
+  .desc-revw-btn-flex-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    border-bottom: .1rem solid #ddd;
+  }
+
+  .desc-revw-btn{
+    position: relative;
+    width: max-content;
+    padding-inline: 2.56rem;
+    padding-block-start: 1rem ;
+    padding-block-end: 2rem;
+    font-size: 1.55rem;
+    letter-spacing: .5px;
+    font-weight: 600;
+    color: #212421;
+    background-color: transparent;
+    border: none;
+    transition: 500ms ease;
+    border-bottom: .2rem solid #088178;
+    border-color: transparent;
+  }
+
+  .desc-revw-btn:hover{
+    transform: translateY(-2px);
+    color: #088178;
+  }
+
+  .desc-revw-btn.drbtnactive{
+    color: #088178;
+    border-color: #088178;
+
+  }
+
+  .description-main-bx{
+    position: relative;
+    width: 100%;
+    padding-block: 4.5rem;
+  }
+
+  .description-main-bx p{
+    font-size: 1.55rem;
+    color: #727472;
+    letter-spacing: .45px;
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+
+  }
+
+  .descr-list-main{
+    margin-top: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+    border-bottom: .1rem solid #ddd;
+
+  }
+
+  .des-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-bottom: .87rem;
+    padding-inline-start: 1rem;
+  }
+
+  .des-list:before{
+    content: "";
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    left: -.3rem;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    background-color: #a8afbb;
+  }
+
+  .des-list span:nth-child(1){
+    width: 15rem;
+
+  }
+
+  .des-list span{
+    font-size: 1.45rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #383d45;
+  }
+
+  .description-main-bx h6{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2.3rem;
+    color: #212421;
+    border-bottom: .1rem solid #ddd;
+  }
+
+
+  /* _______________________________
+   Our Review CSS codee
+   ----------------- */
+
+   .review-main-bx{
+    position: relative;
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    column-gap: 2rem ;
+    row-gap: 2rem ;
+
+   }
+
+   .left-reviews-main-bx{
+    position: relative;
+    width: 100%;
+   }
+  
+   .left-reviews-main-bx h6{
+    font-size: 2.5rem;
+   }
+
+   .all-revw-flex-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .review-bx2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.76rem;
+    padding: 2rem .76rem;
+    border-bottom: .1rem solid #ddd;
+   }
+
+   .left-user-img-bx{
+    position: relative;
+    width: 7rem
+   }
+
+   .left-user-img-bx img{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+   }
+
+   .user-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: max-content;
+    margin-top: .65rem;
+   }
+
+   .user-info p{
+    font-size: 1.55rem;
+    font-weight: 500;
+    color: #010101;
+    margin-bottom: 0;
+    line-height: 1.2;
+   }
+
+   .user-info span{
+    font-size: 1.3rem;
+    color: #7b7478;
+   }
+
+   .right-user-text-main-bx{
+    position: relative;
+    width: 100%;
+    padding-top: 1rem;
+   }
+
+   .rev-rating{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+    margin-bottom: 1rem;
+   }
+
+   .rev-rating i{
+    color: orange;
+   }
+
+   .right-user-text-main-bx p{
+    font-size: 1.6rem;
+    letter-spacing: .56px;
+    color: #383d45;
+    font-family: "Lato", sans-serif;
+   }
+
+   .date-reply-flex-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7rem;
+   }
+
+   .date-reply-flex-bx span{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .45px;
+    color: #383d45;
+   }
+
+   .reply-btn{
+    position: relative;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: .76rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    letter-spacing: .65px;
+    color: #088178;
+   }
+
+   .total-revw-rat-flex-bx{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+   }
+
+   .rev-rating2 i{
+    font-size: 1.3rem;
+   }
+
+   .total-revw-rat-flex-bx p{
+    margin-bottom: 0;
+    transform: translateY(-4px);
+    font-weight: 500;
+    color: #2e2c2c;
+   }
+
+   .rating-percent-main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
+   
+   .rat-progress-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   }
+
+   .rat-progress-bx span{
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #3b3a3a;
+    letter-spacing: .45px;
+    width: 4rem ;
+   }
+
+   .progress-bar-bx{
+    position: relative;
+    height: 1.65rem;
+    background-color: #e9ecef;
+    width: calc(100% - 4rem);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+   }
+
+   .progress-bar-bx span{
+    padding-inline: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+   }
+
+   .progress-bar-bx:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #088178;
+    z-index: -1;
+   }
+
+   .progress-bar-bx2:before{
+    width: 25%;
+   }
+
+   .progress-bar-bx3:before{
+    width: 42%;
+   }
+
+   .progress-bar-bx4:before{
+    width: 65%;
+   }
+
+   .progress-bar-bx5:before{
+    width: 85%;
+   }
+
+   .rat-cal-text{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: #727472;
+    letter-spacing: .5px;
+    font-weight: 500;
+   }
+
+   .review-bx2:last-child{
+    border-bottom: none;
+   }
+
+   .review-main-bx{
+    border-bottom: .1rem solid #ddd;
+   }
+
+   .rev-form-grid{
+    position: relative;
+    width: 100%;
+   }
+
+   .add-review-main-bx{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    padding-block: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+   }
+
+   .add-review-main-bx h6{
+    font-size: 2rem;
+    letter-spacing: .55px;
+    font-weight: 500;
+    color: #3b3a3a;
+   }
+
+   .blank-star{
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+    color: #dddddd;
+    font-size: 1.2rem;
+   }
+
+   .add-rev-form{
+    margin-top: 3rem;
+    position: relative;
+    width: 100%;
+   }
+
+   .rev-inpt{
+    position: relative;
+    width: 100%;
+    border: .1rem solid #ddd;
+    background-color: #fff;
+
+   }
+
+   .rev-inpt textarea{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #727472;
+    padding: 1.5rem 1.5rem;
+    letter-spacing: .55px;
+    resize: none;
+   }
+
+   .rev-inpt textarea::placeholder{
+    font-weight: 300;
+   }
+
+   .rev-form-grid{
+    margin-top: 2.5rem;
+    position: relative;
+    width: 100%;
+   }
+
+   .rev-inpt input{
+    width: 100%;
+    height: 4.45rem;
+    padding-inline: 1.5rem;
+    font-size: 1.3rem;
+    letter-spacing: .55px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+   }
+
+   .submit-revw-btn{
+    margin-top: 2.5rem;
+    height: 4.67rem;
+    border-radius: .4rem;
+   }
+
+   .related-prod-main-bx{
+    position: relative;
+    width: 100%;
+   }
+
+   .rel-prod-text{
+    font-size: 2.3rem;
+    margin-bottom: 2.87rem;
+    
+   }
+
+   .related-prod-grid{
+    position: relative;
+    width: 100%;
+
+   }
+
+   .breadcrum-bx{
+    position: relative;
+    width: 100%;
+    padding: 2.5rem 1.87rem;
+    background-color: #f7f8f9;
+   }
+
+   .breadcrum-flex{
+    display: flex;
+    align-items: center;
+    gap: 2.87rem;
+    justify-content: flex-start;
+   }
+
+   .breadcrum-flex a ,    .breadcrum-flex span{
+    font-size: 1.45rem !important;
+    font-weight: 500 !important;
+    letter-spacing: .45px !important;
+    color: #088178 !important;
+   }
+
+   .breadcrum-flex span{
+    color: #727472 !important;
+   }
+
+   
+   
+  /* a8afbb */

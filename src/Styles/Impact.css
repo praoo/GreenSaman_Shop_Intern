@@ -1,0 +1,138 @@
+
+/* _________________________________
+ Our Impact css code
+ ------------------------------ */
+
+ .imp-comp{
+    position: relative;
+    width: 100%;
+    padding: 2rem 1.87rem;
+    margin-block: 4rem;
+ }
+
+ .comn-heading{
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+
+ }
+
+ .comn-heading p{
+   margin-bottom: 0;
+   font-size: 1.5rem;
+   letter-spacing: .4px;
+   color: #666868;
+ }
+
+ .imp-flex-main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+ }
+
+ .imp-bx{
+    position: relative;
+    width: 16rem;
+ }
+
+ .imp-img{
+   position: relative;
+   width: 16rem;
+   height: 16rem;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #dbebf6;
+
+ }
+
+ .imp-bx2 .imp-img{
+   background-color: #eaf5d8;
+   
+ }
+
+ .imp-bx3 .imp-img{
+   background-color: #f9e1ee;
+   
+ }
+
+ .imp-bx4 .imp-img{
+   background-color: #e9e2fd;
+   
+ }
+
+ .imp-bx5 .imp-img{
+   background-color: #f6e5db;
+   
+ }
+
+ .imp-img:before{
+   content: "";
+   position: absolute;
+   inset: -10px;
+   border: .1rem solid #d1f6f9;
+   border-radius: 50%;
+
+ }
+
+ .imp-bx2 .imp-img:before{
+   border-color: #eaf5d8;
+
+ }
+
+ .imp-bx3 .imp-img:before{
+   border-color: #e9e2fd;
+
+ }
+
+ .imp-bx4 .imp-img:before{
+   border-color: #e9e2fd;
+
+ }
+
+ .imp-bx5 .imp-img:before{
+   border-color: #f6e5db;
+
+ }
+
+ .imp-img img{
+   width: 8rem;
+   height: auto;
+   object-fit: cover;
+   filter: invert(100%);
+ }
+
+ .imp-icon i{
+   font-size: 5.2rem;
+   color: #272626;
+ }
+
+ .imp-info{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   margin-top: 3rem;
+ }
+
+ .imp-info h6{
+   font-size: 2.4rem;
+   font-weight: 600;
+   margin-bottom: .5rem;
+ }
+
+
+ .imp-info p{
+   font-size: 1.5rem;
+   font-weight: 400;
+   letter-spacing: .5px;
+   color: #858282;
+ }
+

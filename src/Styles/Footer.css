@@ -1,0 +1,180 @@
+
+
+/* ___________________________________
+ Our Footer CSS code 
+ ---------------------- */
+
+ .footer-comp{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 3rem 1.87rem;
+
+ }
+
+ .footer-grid{
+    grid-template-columns: 1.78fr 3fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+
+ }
+
+ .left-foter-main-bx{
+    position: relative;
+    width: 100%;
+ }
+
+ .fot-logo{
+    position: relative;
+    width: 13rem;
+    margin-bottom: 2.5rem;
+ }
+
+ .fot-logo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+
+ .text-f{
+    font-size: 1.87rem;
+    font-weight: 400;
+    letter-spacing: .45px;
+    color: gray;
+    margin-bottom: 1rem;
+ }
+
+ .text-f2{
+    margin-top: 2rem ;
+ }
+
+ .foter-main-info-bx p{
+    margin-bottom: 0;
+    font-size: 1.76rem;
+    color: #465b52;
+    font-weight: 400;
+ }
+
+ .foter-main-info-bx p span{
+    font-size: 1.8rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    color: #465b52;
+
+ }
+
+ .follow-soc-link-flex-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+ }
+
+ .follow-soc-link-flex-bx  a i{
+    font-size: 1.6rem;
+    color: #626062;
+    transition: 400ms ease;
+ }
+
+ .follow-soc-link-flex-bx  a:hover i{
+    color: #333033;
+ }
+
+ .right-footer-list-grid-bx{
+    position: relative;
+    width: 100%;
+    grid-template-columns: .75fr .75fr 1.5fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+ }
+
+ .fot-list-bx{
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+ }
+
+ .fot-list-bx h5{
+    font-size: 2.3rem;
+    letter-spacing: .55px;
+    margin-bottom: 1.3rem;
+ }
+
+ .fot-list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .87rem;
+ }
+
+ .fot-list li{
+    position: relative;
+    width: 100%;
+    padding-bottom: .76rem;
+ }
+
+ .fot-list li a{
+    width: 100% !important;
+    display: inline-block !important;
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+    letter-spacing: .5px !important;
+    color: #353434 !important;
+    transition: 500ms ease !important;
+ }
+
+ .fot-list li:hover a{
+    color: #088178 !important;
+    transform: translateX(10px);
+ }
+
+ .fot-list-bx p{
+    font-size: 1.78rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+    color: #465b52;
+    margin-bottom: 2rem;
+ }
+
+ .app-playstore-img-grid-bx{
+    margin-bottom: 3rem;
+ }
+
+ .inst-img-btn{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border: .2rem solid #e8e3e3;
+    border-radius: .45rem;
+    transition: 500ms ease;
+ }
+
+ .inst-img-btn:first-child{
+    border-color:  #088178;
+
+ }
+
+ .inst-img-btn img{
+    width: 100%;
+    height: auto;
+    border-radius: .45rem;
+
+ }
+
+ .inst-img-btn:hover{
+    border-color: #088178;
+    transform: translateY(-6px);
+ }
+
+ .payment-method-img{
+    position: relative;
+    width: 59%;
+    cursor: pointer;
+    
+ }
+
+ .payment-method-img img{
+    width: 100%;
+    height: auto;
+ }

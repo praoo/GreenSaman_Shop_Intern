@@ -1,0 +1,309 @@
+
+/* _________________________________
+ Our Cart Item Css code 
+ ------------------- */
+
+ .cart-item-comp{
+    position: relative;
+    width: 100%;
+    padding: 3rem 1.87rem;
+    margin-top: 4rem;
+ }
+
+
+ .cart-item-table{
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    border-collapse: collapse;
+    overflow-x: auto;
+ }
+
+
+ .cart-item-table::-webkit-scrollbar{
+    height: .2rem;
+    border-radius: .76rem;
+ }
+
+ .cart-item-table table{
+    position: relative;
+    width: 100%;
+
+ }
+
+ .cart-item-table table thead tr th{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: .65px;
+    color: #3f3e3e;
+    padding: 1.35rem 1rem;
+    
+ }
+
+ .cart-item-table table thead tr{
+    border-block-end: .1rem solid #ddd;
+    border-block-start: .1rem solid #ddd;
+ }
+
+ .cart-prod-img-bx{
+    position: relative;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .cart-item-table table tbody tr td{
+    padding: 1.87rem 1rem;
+ }
+
+
+ .cart-item-table table tbody tr {
+    border-bottom: .1rem solid #ddd;
+ }
+ .cart-prod-img-bx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .cart-prod-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+ }
+
+ .cart-prod-name h6{
+    font-size: 1.76rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #088178;
+ }
+
+ .cart-prod-name p{
+    font-size: 1.45rem;
+    letter-spacing: .5px;
+    color: #808080;
+    margin-bottom: 0;
+ }
+
+ .cart-price{
+    margin-bottom: 0;
+    color: #616060;
+    font-size: 1.65rem;
+ }
+
+ .cart-quantity{
+    position: relative;
+    width: 5rem;
+    height: 3.3rem;
+    background-color: #fff;
+    font-size: 1.36rem;
+    color: #3d3d3d;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    
+ }
+
+ .cart-remve-prod-item{
+    position: relative;
+    width: max-content;
+    background-color: transparent;
+    border: none;
+    font-size: 1.67rem;
+    color: #f43232;
+    cursor: pointer;
+    transform: translateY(-4px);
+ }
+
+ .line-style{
+    position: relative;
+    width: 100%;
+    margin-top: 8rem;
+    height: .4rem;
+    border-block: .1rem solid #ddd;
+ }
+
+ .cal-shipping-main-bx{
+    position: relative;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5rem !important;
+    row-gap: 2.5rem !important;
+    margin-top: 3rem;
+    padding-block: 2rem ;
+ }
+
+ .left-discount-ship-main{
+    position: relative;
+    width: 100%;
+
+ }
+
+ .left-discount-ship-main h6{
+    font-size: 2.3rem;
+    color: #252525;
+    letter-spacing: .4px;
+
+ }
+
+
+ .left-discount-ship-main p{
+    font-size: 1.65rem;
+    font-weight: 400;
+    letter-spacing: .45px;
+
+ }
+
+ .left-discount-ship-main p span{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 1.95rem;
+    color: #088178;
+ }
+
+ .dis-form-bx , .dis-form-bx-grid{
+    position: relative;
+    width: 100%;
+ }
+
+ .dis-inpt-bx{
+    position: relative;
+    width: 100%;
+    height: 4.5rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: .07rem solid #ddd;
+    margin-bottom: 2rem;
+    padding-inline: 1rem;
+ }
+
+ .dis-form-bx select{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #434343;
+ }
+
+ .dis-inpt-bx{
+    position: relative;
+    width: 100%;
+    height: 4.3rem;
+    background-color: transparent;
+    border: .07rem  solid #ddd;
+    border-radius: .5rem;
+ }
+
+ .dis-inpt-bx input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #808080;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-weight: 500;
+ }
+
+ .dis-inpt-bx input::placeholder{
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: #a3a0a0;
+ }
+
+ .upd-btn{
+    position: relative;
+    width: max-content;
+    height: 3.87rem;
+    padding-inline: 2.5rem;
+    background-color: #088178;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: .45px;
+    border: none;
+    color: #fff;
+    border-radius: .45rem;
+    letter-spacing: .65px;
+ }
+
+ .appy-coupn-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    margin-top: 3rem;
+ }
+
+ .coupn-btn{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: .76rem;
+    justify-content: center;
+    
+ }
+
+ .dis-inpt-bx2{
+    height:4.3rem;
+    width: 50%;
+    margin-bottom: 0;
+ }
+
+ .right-cart-totls-main-bx{
+    position: relative;
+    width: 100%;
+    border: .1rem solid #ddd;
+    padding: 2.5rem 2.5rem;
+    height: max-content;
+ }
+
+ .right-cart-totls-main-bx h5{
+    font-size: 2.3rem;
+    color: #3f3e3e;
+    letter-spacing: .55px;
+    margin-bottom: 2rem;
+ }
+
+ .card-totl-grid{
+    position: relative;
+    width: 100%;
+    column-gap: 0 !important;
+    row-gap: 0 !important;
+ }
+
+ .card-totl-grid p{
+    position: relative;
+    width: 100%;
+    border: .1rem solid #eee;
+    padding-inline:  1rem;
+    font-size: 1.5rem;
+    color: #434343;
+    letter-spacing: .5px;
+    padding-block: .76rem;
+    margin-bottom: 0;
+ }
+
+ .card-totl-grid .t-price{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #088178;
+    letter-spacing: .55px;
+
+ }
+
+ .chckout-btn{
+    height: 4.5rem;
+ }
+
+ .cont-shop-btn{
+    margin: 4rem  0 0 auto ;
+ }

@@ -1,0 +1,503 @@
+
+
+/*  ___________________________
+ Our Header comp css code
+ ____________________- */
+
+ .header-comp{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 1.87rem;
+
+ }
+
+ .header-flex-bx{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .left-header-logo{
+    position: relative;
+    width: 15rem;
+ }
+
+ .left-header-logo img{
+    width: 100%;
+    height: auto;
+ }
+
+ .center-header-search-bx{
+    position: relative;
+    width: 65rem;
+    height: 4.5rem;
+    background-color: #fff;
+    border: .1rem solid #ddd;
+ }
+
+ .center-header-search-bx input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.45rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    background-color: transparent;
+    border: none;
+    padding-inline: 4rem;
+ }
+
+ .center-header-search-bx ion-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: .65rem;
+    font-size: 2.23rem;
+    color: #8e8b8b;
+
+ }
+
+ .center-header-search-bx input::placeholder{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #8e8b8b;
+ }
+
+ .right-header-cart-wish-acnt-flex-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+ }
+
+ .swtch-page-btn{
+    position: relative;
+    background-color: transparent;
+    border: none;
+ }
+
+ .swtch-page-btn ion-icon{
+    position: relative;
+    font-size: 2.5rem;
+ }
+
+ .num-bx{
+    position: absolute;
+    top: -.55rem;
+    right: -1rem;
+    width: 1.76rem;
+    height: 1.76rem;
+    display: grid;
+    place-items: center;
+    padding: 0 .2rem;
+    background-color: #088178;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+ }
+
+ .header-comp2{
+    position: relative;
+    width: 100%;
+    padding: 1.87rem 1.87rem;
+ }
+
+ .left-categ-filt-bx{
+    position: relative;
+    width: 20rem;
+ }
+
+ .categ-filt-btn{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1.67rem;
+    font-weight: 600;
+    color: #4b4b4b;
+    
+ }
+
+ .categ-filt-btn i{
+    font-size: 2rem;
+    color: #595858;
+ }
+
+ .center-navabr , .navbar , .nav , .nav-lists{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
+
+ .nav-lists {
+    gap: 3.35rem;
+ }
+
+ 
+ .nav-lists li {
+    position: relative;
+    width: max-content;
+ }
+
+ 
+ .nav-lists li a{
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    font-size: 1.55rem;
+    font-weight: 600 ;
+    color: #3d3d3d ;
+    letter-spacing: .55px;
+ }
+
+ .header-left-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7rem;
+ }
+
+ .header-left-box2{
+    gap: 12rem;
+ }
+
+ .help-num-bx{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 1.3rem;
+ }
+
+ .help-num-bx ion-icon{
+    font-size: 2.23rem;
+    color: #3d3d3d;
+ }
+
+ .help-num-bx p{
+    margin-bottom: 0;
+    font-size: 1.87rem;
+    font-weight: 500;
+    letter-spacing: .45px;
+    color: #3d3c3c;
+ }
+
+ .help-num-bx p span{
+    display: inline-block;
+    margin-left: .5rem;
+    font-size: 1.87rem;
+    font-weight: 600;
+    color: #088178;
+ }
+
+ .nav-lis , .nav-links{
+    transition: 500ms ease;
+ }
+
+
+
+ .nav-lis.nlinkactive .nav-links{
+    color: #088178 !important;
+ }
+
+ .login-btn{
+   position: relative;
+   width: max-content;
+   height: 3.87rem;
+   background-color: #088178;
+   color: #fff;
+   font-size: 1.5rem;
+   font-weight: 500;
+   border: none;
+   padding-inline: 2.87rem;
+   letter-spacing: .55px;
+   border-radius: .45rem;
+   transition: 500ms ease;
+   border: .1rem solid #088178;
+ }
+
+ .login-btn:hover{
+   background-color: transparent;
+   color: #088178;
+   
+
+ }
+
+ /* ______________________________
+ our login comp css code
+ --------------------- */
+
+ .login-comp{
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100vh;
+   z-index: 1000;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+ }
+
+ .login-comp:before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.45;
+ }
+
+ .login-main-bx{
+   position: relative;
+   top: 4rem;
+   width: 45rem;
+   background-color: #fff;
+   border-radius: .5rem;
+   padding: 2.5rem 3rem 2rem 3rem;
+ }
+
+ .login-bx{
+   position: relative;
+   width: 100%;
+ }
+
+ .login-bx h5{
+   font-size: 3rem;
+   font-weight: 500;
+   letter-spacing: .5px;
+ }
+
+ .login-bx p{
+   font-size: 1.87rem;
+   line-height: 1.4;
+   letter-spacing: .5px;
+   font-weight: 400;
+   color: #7c7c76;
+ }
+
+ .login-form-bx{
+   position: relative;
+   width: 100%;
+   transition: 400ms ease;
+   /* margin-top: 3rem; */
+
+ }
+
+ .login-form-bx form{
+   width: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+ }
+
+ .form-inpt-bx{
+   position: relative;
+   width: 100%;
+   height: 4.76rem;
+   background-color: #f6f6fe;
+   border-radius: .45rem;
+   transition: 400ms ease;
+   transform-origin: top;
+ }
+
+ .form-inpt-bx input{
+   width: 100%;
+   height: 100%;
+   font-size: 1.5rem;
+   font-weight: 500;
+   letter-spacing: .45px;
+   padding-inline: 1.76rem;
+   border: none;
+   background-color: transparent;
+   border-radius: .45rem;
+   border: .1rem solid #eee;
+   transition: 400ms ease;
+
+ }
+
+ .form-inpt-bx2{
+   transform: scaleY(0);
+   height: 0;
+ }
+
+ .form-inpt-bx input::placeholder{
+   color: #a4a4a1;
+ }
+
+ .login-bx.loginswitchactive  .login-form-bx{
+   margin-top: 3rem;
+ }
+ 
+ .login-bx.loginswitchactive  .form-inpt-bx2{
+   transform: scaleY(1) !important;
+   height: 4.76rem !important;
+ }
+
+ .login-btn-flex-bx{
+   position: relative;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 2.5rem;
+   margin-top: 1rem;
+ }
+
+ .submit-btn{
+   position: relative;
+   width: max-content;
+   padding-inline: 2.87rem;
+   border-radius: .5rem;
+   background-color: #088178;
+   border: none;
+   border: .1rem solid #088178;
+   font-size: 1.55rem;
+   font-weight: 500;
+   letter-spacing: .76px;
+   color: #fff;
+   height: 4rem;
+ }
+
+ .forgt-paswrd-btn{
+   position: relative;
+   width: max-content;
+   background-color: transparent;
+   border: none;
+   font-size: 1.55rem;
+   font-weight: 500;
+   letter-spacing: .5px;
+   color: #7c7c76;
+
+ }
+
+ .login-with-text{
+   position: relative;
+   width: max-content;
+   margin-top: 1rem;
+   margin-bottom: 0;
+   line-height: 1;
+   font-size: 1.76rem;
+   color: #7c7c76;
+   font-weight: 400;
+   letter-spacing: .45px;
+ }
+
+ .login-with-other-grid{
+   position: relative;
+   width: 100%;
+
+ }
+
+ .login-with-btn{
+   position: relative;
+   width: 100%;
+   height: 4.5rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   justify-content: center;
+   font-size: 1.45rem;
+   font-weight: 600;
+   letter-spacing: .45px;
+   background-color: #f6f6fe;
+   border: none;
+   border: .1rem solid #eee;
+   color: #3d3d3d;
+ }
+
+ .login-with-btn .fa-facebook{
+   color: #6078ab;
+   font-size: 1.5rem;
+
+ }
+
+ .login-with-btn .fa-google-plus{
+   color: #e26d5f;
+   font-size: 1.5rem;
+
+ }
+
+ .regi-btn{
+   position: relative;
+   width: max-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem auto 0 auto;
+   padding: 1rem 1.87rem;
+   background-color: transparent;
+   border: none;
+   border-top: .2rem solid #3d3c3c;
+   font-size: 1.55rem;
+   letter-spacing: .55px;
+   font-weight: 600;
+ }
+
+ .reset-password-btn{
+   position: relative;
+   width: max-content;
+   margin: 3rem auto auto;
+   padding-inline: 1.87rem;
+   height: 4rem;
+   font-size: 1.5rem;
+   font-weight: 500;
+   letter-spacing: .56px;
+   color: #fff;
+   background-color: #088178;
+   border: none;
+   border-radius: .45rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: none;
+
+ }
+
+ .main-form-handle-bx.mainformactive .reset-password-btn {
+   display: flex;
+ }
+
+ .main-form-handle-bx.mainformactive .login-with-text , 
+ .main-form-handle-bx.mainformactive .login-with-other-grid , 
+ .main-form-handle-bx.mainformactive .form-inpt-bx3 ,
+ .main-form-handle-bx.mainformactive .regi-btn , 
+ .main-form-handle-bx.mainformactive .login-btn-flex-bx
+ {
+   display: none ;
+ }
+
+ .main-form-handle-bx.mainformactive .form-inpt-bx2{
+   transform: scale(1);
+   height:  4.76rem;
+ }
+
+ .main-form-handle-bx.mainformactive .login-form-bx{
+   margin-top: 3rem;
+ }
+
+ .close-form-btn{
+   position: absolute;
+   top: .65rem;
+   right: 1.5rem;
+   font-size: 2.34rem;
+   color: #fa1f1f;
+   cursor: pointer;
+ }
+
+ /* 6078ab e26d5f */
